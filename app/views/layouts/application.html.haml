@@ -3,7 +3,6 @@
   %head
     %title MITRE Cyber Academy CTF Registration
     = stylesheet_link_tag    "application"
-    = javascript_include_tag "application"
     = csrf_meta_tags
   %body
     .navbar.navbar-fixed-top.navbar-inverse
@@ -68,4 +67,5 @@
           = alert
     .container
       = yield
+    = javascript_include_tag "application"
     
